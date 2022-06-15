@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import TopNavBar from "../../components/TopNavbar";
 import Quiz from "./Quiz";
 import './QuizView.css'
@@ -44,7 +44,6 @@ return (
                                 setScore={setScore} 
                                 redo={redo} 
                                 kanjiList={kanjiList}
-                                setKanjiList={setKanjiList} 
                                 answerList={answerList}
                                 wrongKanjis={wrongKanjis} 
                                 setWrongKanjis={setWrongKanjis} 

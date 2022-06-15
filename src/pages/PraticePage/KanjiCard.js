@@ -18,7 +18,7 @@ const KanjiCard = () => {
         }
       })
       if (response.status !== 200) {
-        console.log('something went wrong!')
+        alert('something went wrong!')
         navigate('/');
       }
     const data = await response.json();

@@ -1,6 +1,5 @@
 import { Navbar, Nav, Container, NavDropdown, Button } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
-import {logout} from '../services/AuthService';
 
 
 const TopNavBar = () => {

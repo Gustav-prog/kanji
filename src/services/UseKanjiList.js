@@ -1,5 +1,4 @@
-import { useState, useEffect } from 'react';
-//import { useNavigate } from 'react-router-dom';
+import { useState } from 'react';
 
 
 
@@ -7,7 +6,7 @@ export const UseKanjiList = async () => {
 
     let [jlptLevel, setJlptLevel] = useState(5);
     let [kanjiList, setKanjiList] = useState([]);
-    //const navigate = useNavigate();
+    
     console.log("this is insie use kanjilist")
 
             let response = await fetch("http://localhost:8080/api/jlpt/5/kanji/random", {
@@ -18,7 +17,6 @@ export const UseKanjiList = async () => {
             })
             if (response.status !== 200) {
                 alert('something went wrong!')
-                //navigate('/');
               }
 
             const data = await response.json();

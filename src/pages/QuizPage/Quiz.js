@@ -4,7 +4,7 @@ import './Quiz.css';
 import { useNavigate } from "react-router-dom"; 
 
 
-const Quiz = ({score, setScore, getKanji, kanjiList, setKanjiList, answerList, wrongKanjis, setWrongKanjis, redo, setNumberOfKanji}) => {
+const Quiz = ({score, setScore, getKanji, kanjiList, answerList, wrongKanjis, setWrongKanjis, redo}) => {
 
 	let navigate = useNavigate();
 
