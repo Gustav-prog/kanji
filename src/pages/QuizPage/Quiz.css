@@ -1,0 +1,57 @@
+
+
+.KanjiCard {
+    display: flex;
+    text-align: center;
+    gap: 33%;
+}
+
+.QuestionBox {
+    background-color: rgba(0,0,0,.125);
+}
+
+.QuestionBoxBorder {
+    width: 30rem; 
+    height: 20rem; 
+    border: 5px solid rgba(0,0,0,.125)
+}
+
+.KanjiBox {
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.Score {
+    width: 15rem; 
+    height: 10rem; 
+    border: 5px solid rgba(0,0,0,.125)
+}
+
+
+#answer {
+    width: 95%;
+    margin-bottom: 1%;
+}
+
+.arrow {
+    margin-top: 10%;
+}
+
+#arrowSign {
+    margin-top: 5%;
+}
+
+
+.nextButtonContainer {
+    margin-top: 2%;
+}
+
+#nextButton {
+
+}
+
+.Options {
+    width: 15rem; 
+    height: 10rem; 
+}

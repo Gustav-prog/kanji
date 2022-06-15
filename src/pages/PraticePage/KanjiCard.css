@@ -1,0 +1,20 @@
+.KanjiCard {
+    margin-top: 10%;
+    margin-left: 33%;
+    margin-right: 33%;
+}
+
+
+.divider {
+    width:2.5%;
+    height:auto;
+    display:inline-block;
+}
+
+.CardButtons {
+    margin-bottom: 5%;
+}
+
+#Kanji {
+    width: 100%;
+}
